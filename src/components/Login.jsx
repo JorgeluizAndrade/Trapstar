@@ -5,7 +5,7 @@ export default function Login() {
   const handleClick = async () => {
     const apiUrl = "https://accounts.spotify.com/authorize";
     const clientId = "96e258c926bb43b98eae77d7c8e00adc";
-    const redirectUri = "trapstar.vercel.app";
+    const redirectUri = "https://trapstar.vercel.app/";
     const scopes = [
       "user-read-email",
       "user-read-private",
